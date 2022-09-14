@@ -8,6 +8,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				satoshi: "MyFont, sans-serif",
+				satoshi2: "MyFont2, sans-serif",
 			},
 		},
 	},
