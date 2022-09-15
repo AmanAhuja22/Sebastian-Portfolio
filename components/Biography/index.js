@@ -3,7 +3,7 @@ import Image from "next/image";
 import Hero from "../../public/images/PurpleHero.jpg";
 const Biograhy = () => {
 	return (
-		<>
+		<div style={{ position: "relative", overflow: "hidden" }}>
 			<div className="ellipse1" />
 			<div className="ellipse2" />
 			<div className="ellipse3" />
@@ -15,10 +15,12 @@ const Biograhy = () => {
 			<div className="ellipse-eleven" />
 			<div className="ellipse-twelve" />
 
-			<div className="w-full h-full purple-gradient justify-center text-center text-white flex p-12 gap-12">
-				<div className="md:my-24 w-90 mt-24 pt-36">
-					<h1 className="lg:text-7xl mb-12">Biography</h1>
-					<p className=" text-left text-lg">
+			<div className="w-full  h-full purple-gradient justify-center items-center text-center md:px-24 text-white flex p-12 gap-12 md:p-2 md:gap-8">
+				<div className="md:my-24 w-90 md:mt-24 ">
+					<h1 className="lg:text-7xl text-left md:text-4xl md:mb-4 ">
+						Biography
+					</h1>
+					<p className=" text-left md:text-lg ">
 						Sebastian Mateo is a DJ and producer from Lima, Peru. Inspired by
 						EDM and Pop sounds, he is the leading producer of his country,
 						having the support from the biggest DJs in the world such as David
@@ -27,11 +29,11 @@ const Biograhy = () => {
 					</p>
 				</div>
 
-				<div className="w-[100%] my-24 mx-36">
-					<Image className="rounded-3xl" src={Hero} />
+				<div className="md:w-[100%] p-12 py-12">
+					<Image className="" src={Hero} />
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 
