@@ -2,27 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-	@font-face {
-		font-family: "MyFont";
-		src: url("../public/fonts/NeuePlakExtendedSemiBold.woff2") format("woff2");
-		font-style: normal;
-	}
-
+/* @layer base {
 	@font-face {
 		font-family: "MyFont2";
-		src: url("../public/fonts/NeuePlakCondensedSemiBold.woff2") format("woff2");
+		src: url("../public/fonts/NeuePlakSemiBold.woff2") format("woff2");
 		font-style: normal;
 	}
-}
+} */
 
 html,
 body {
 	padding: 0;
 	margin: 0;
 
-	/* font-family: MyFont,  -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -60,7 +54,7 @@ a {
 	height: 711px;
 	left: 1119px;
 	top: 86px;
-
+	display: none;
 	background: #801786;
 	opacity: 0.3;
 	filter: blur(252px);
@@ -72,10 +66,21 @@ a {
 	height: 625px;
 	left: 699px;
 	top: -96px;
-
 	background: #c1728d;
 	opacity: 0.15;
 	filter: blur(252px);
+}
+
+.ellipse1 {
+	position: absolute;
+	width: 197.13px;
+	height: 197.13px;
+	left: 1700.14px;
+	top: -71.76px;
+	display: none;
+	background: #141418;
+	opacity: 0.6;
+	filter: blur(130px);
 }
 
 .ellipse4 {
@@ -85,8 +90,8 @@ a {
 	left: 445.93px;
 	top: 235.64px;
 	background: #1e1730;
-	opacity: 1;
-	filter: blur(524px);
+	opacity: 0.3;
+	filter: blur(124px);
 }
 
 .ellipse7 {
@@ -95,7 +100,6 @@ a {
 	height: 141.24px;
 	left: -23.85px;
 	top: 388.2px;
-
 	background: #b7b3c2;
 	opacity: 0.5;
 	filter: blur(252px);

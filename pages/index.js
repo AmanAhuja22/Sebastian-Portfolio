@@ -15,8 +15,8 @@ export default function Home() {
 			<Biograhy />
 			<Support />
 			<Music />
-			<GigList />
-			<Footer />
+			{/* <GigList /> */}
+			{/* <Footer /> */}
 		</div>
 	);
 }
