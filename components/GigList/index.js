@@ -1,7 +1,7 @@
 import Image from "next/image";
-import one from "../../public/images/gigList/1.jpg";
+import one from "../../public/images/gigList/1.JPG";
 import two from "../../public/images/gigList/2.jpg";
-import three from "../../public/images/gigList/3.jpg";
+import three from "../../public/images/gigList/3.JPG";
 import four from "../../public/images/gigList/4.jpg";
 const GigList = () => {
 	return (
