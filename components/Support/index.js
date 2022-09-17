@@ -11,7 +11,7 @@ const Support = () => {
 		<div className="h-full text-white purple-gradient text-center  text-4xl pt-12">
 			<div className="p-24">Supported By</div>
 			<div className="w-18">
-				<Image width="90px" height="90px" src={Revealed} />
+				<Image width="90px" height="90px" src={Revealed} alt="Revealed" />
 			</div>
 
 			{/* <div className="">
@@ -23,7 +23,7 @@ const Support = () => {
 				/>
 			</div> */}
 			<div className="w-18">
-				<Image src={Afrojack} />
+				<Image src={Afrojack} alt="Afrojack" />
 			</div>
 			{/* <div className="w-18">
 				<Image

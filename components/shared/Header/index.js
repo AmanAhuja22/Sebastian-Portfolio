@@ -5,7 +5,13 @@ const Header = () => {
 	return (
 		<header className="purple-gradient flex items-center justify-between  p-4  text-white h-20 lg:pr-12 ">
 			<div className="p-0 ">
-				<Image className="absolute" width="500" height="500" src={Logo} />
+				<Image
+					className="absolute"
+					alt="Logo"
+					width="500"
+					height="500"
+					src={Logo}
+				/>
 			</div>
 
 			<div className=" hidden  font-satoshi2 lg:flex gap-12 items-center">

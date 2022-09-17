@@ -26,7 +26,7 @@ const GigList = () => {
 const GigCard = ({ image, event }) => {
 	return (
 		<ul className="text-left text-lg flex mt-8 items-center px-24 border-white">
-			<Image src={image} width={80} height={80} alt="image" />
+			<Image src={image} width={80} height={80} alt="Images for gigs" />
 			<li className="px-8">{event}</li>
 		</ul>
 	);
