@@ -3,11 +3,11 @@ import Image from "next/image";
 import Logo from "../../../public/images/Logo.png";
 const Footer = () => {
 	return (
-		<div className="bg-[#160F15] h-80 text-white text-center overflow-hidden">
+		<div className="bg-[#160F15] h-80 text-white text-center ">
 			<div className="">
-				<Image width={400} height={400} src={Logo} alt="Sebastian's Logo" />
+				<Image width={40} height={40} src={Logo} alt="Sebastian's Logo" />
 			</div>
-			<div>
+			<div className="text-white">
 				<ul>
 					<li>ABOUT</li>
 					<li>MUSIC</li>
