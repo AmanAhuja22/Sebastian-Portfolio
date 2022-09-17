@@ -1,8 +1,8 @@
 import Image from "next/image";
-import one from "../../public/images/gigList/1.jpg";
-import two from "../../public/images/gigList/2.jpg";
-import three from "../../public/images/gigList/3.jpg";
-import four from "../../public/images/gigList/4.jpg";
+import one from "../../public/images/GigList/1.jpg";
+import two from "../../public/images/GigList/2.jpg";
+import three from "../../public/images/GigList/3.jpg";
+import four from "../../public/images/GigList/4.jpg";
 const GigList = () => {
 	return (
 		<div className="  text-white text-center purple-gradient text-4xl">
