@@ -2,13 +2,14 @@ import React from "react";
 
 const Music = () => {
 	return (
-		<div className="purple-gradient text-white text-center h-80 text-4xl pt-12">
-			Music
+		<div className="purple-gradient text-white text-center  text-4xl pt-12 p-24">
+			<h1 className="mb-12">Music</h1>
 			<div className="container mx-auto">
 				<iframe
 					src="https://open.spotify.com/embed/artist/4McoittPoukRnXpQM6oqus?utm_source=generator&theme=0"
-					width="100%"
-					height="380"
+					width={"100%"}
+					height={400}
+					style={{ borderRadius: "20px" }}
 					frameBorder="0"
 					allowFullScreen=""
 					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
