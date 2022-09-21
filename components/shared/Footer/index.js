@@ -22,7 +22,7 @@ const Footer = () => {
 				</ul>
 			</div>
 
-			<div className="pt-24 text-gray-200">
+			<div className="pt-24 text-gray-200 font-light">
 				@Copyright2022 | All rights reserved.
 			</div>
 		</div>

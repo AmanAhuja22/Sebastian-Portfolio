@@ -14,7 +14,7 @@ const Header = () => {
 				/>
 			</div>
 
-			<div className=" hidden  font-satoshi2 lg:flex gap-12 items-center">
+			<div className=" hidden  font-SemiBold lg:flex gap-12 items-center">
 				<ul className=" flex gap-12 uppercase ">
 					<li className="pr-4 cursor-pointer hover:bg-gray-600 hover:bg-opacity-10 p-2 mr-4 hover:rounded-md">
 						About

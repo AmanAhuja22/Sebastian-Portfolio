@@ -9,7 +9,7 @@ import Hexagon from "../../public/images/Hexagon.png";
 
 const Support = () => {
 	return (
-		<div className="h-full font-main text-white purple-gradient text-center  text-4xl pt-12">
+		<div className="h-full font-main text-white purple-gradient text-center  text-4xl  p-24">
 			<div className="p-4">Supported By</div>
 
 			<div className="flex justify-center items-center gap-24 mt-12">
@@ -27,9 +27,9 @@ const Support = () => {
 						src={Hardwell}
 					/>
 				</div>
-				<div className="w-18">
+				{/* <div className="w-18">
 					<Image width="200px" height="40px" src={Hexagon} />
-				</div>
+				</div> */}
 				<div className="w-18" title="Revealed Recordings">
 					<Image width="90px" height="90px" src={Revealed} alt="Revealed" />
 				</div>
@@ -49,9 +49,9 @@ const Support = () => {
 				<div className="w-18">
 					<Image width="200px" height="40px" src={Hexagon} />
 				</div>
-				<div className="w-18" title="Revealed Recordings">
+				{/* <div className="w-18" title="Revealed Recordings">
 					<Image width="90px" height="90px" src={Revealed} alt="Revealed" />
-				</div>
+				</div> */}
 				<div className="w-18">
 					<Image width="200px" height="80px" src={DonDiable} />
 				</div>

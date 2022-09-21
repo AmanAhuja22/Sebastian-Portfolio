@@ -20,7 +20,7 @@ const Biograhy = () => {
 					<h1 className="lg:text-7xl text-left md:text-4xl md:mb-4 font-main">
 						Biography
 					</h1>
-					<p className="text-xsm text-left">
+					<p className="text-xsm text-left font-SemiBold leading-10">
 						Sebastian Mateo is a DJ and producer from Lima, Peru. Inspired by
 						EDM and Pop sounds, he is the leading producer of his country,
 						having the support from the biggest DJs in the world such as David

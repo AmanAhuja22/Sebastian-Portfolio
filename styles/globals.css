@@ -8,6 +8,12 @@
 		src: url("../public/fonts/NeuePlakExtendedSemiBold.woff2") format("woff2");
 		font-style: normal;
 	}
+	,
+	@font-face {
+		font-family: "NeuePunkTextLight";
+		src: url("../public/fonts/NeuePlakTextLight.woff2") format("woff2");
+		font-style: normal;
+	}
 }
 
 html,
@@ -15,8 +21,9 @@ body {
 	padding: 0;
 	margin: 0;
 
-	font-family: NeuePunk, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family: NeuePunk, NeuePunkTextLight, -apple-system, BlinkMacSystemFont,
+		Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, sans-serif;
 }
 
 a {
@@ -161,4 +168,8 @@ a {
 	background: #801786;
 	opacity: 0.3;
 	filter: blur(252px);
+}
+
+.card-bottom {
+	border-bottom: 1px solid white;
 }

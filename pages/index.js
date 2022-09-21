@@ -17,7 +17,7 @@ export default function Home() {
 			<Support />
 			<Music />
 			<GigList />
-			{/* <Tutorial /> */}
+			<Tutorial />
 			<Footer />
 		</div>
 	);

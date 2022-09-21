@@ -8,6 +8,8 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				main: "NeuePunk, sans-serif",
+				Light: "NeuePunkTextLight, sans-serif",
+				SemiBold: "NeuePunkSemiBold, sans-serif",
 			},
 		},
 	},
