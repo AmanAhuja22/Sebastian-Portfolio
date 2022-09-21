@@ -3,17 +3,27 @@ import Image from "next/image";
 import Logo from "../../../public/images/Logo.png";
 const Footer = () => {
 	return (
-		<div className="bg-[#160F15] h-80 text-white text-center ">
+		<div className="bg-[#160F15]  text-white text-center ">
 			<div className="">
-				<Image width={40} height={40} src={Logo} alt="Sebastian's Logo" />
+				<Image
+					className="absolute mx-auto"
+					width={200}
+					height={200}
+					src={Logo}
+					alt="Sebastian's Logo"
+				/>
 			</div>
 			<div className="text-white">
-				<ul>
-					<li>ABOUT</li>
-					<li>MUSIC</li>
-					<li>TUTORIAL</li>
-					<li>CONTACT</li>
+				<ul className="flex justify-center ">
+					<li className="px-8">ABOUT</li>
+					<li className="px-8">MUSIC</li>
+					<li className="px-8">TUTORIAL</li>
+					<li className="px-8">CONTACT</li>
 				</ul>
+			</div>
+
+			<div className="pt-24 text-gray-200">
+				@Copyright2022 | All rights reserved.
 			</div>
 		</div>
 	);

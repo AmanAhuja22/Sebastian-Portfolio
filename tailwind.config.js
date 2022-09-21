@@ -6,9 +6,9 @@ module.exports = {
 	],
 	theme: {
 		extend: {
-			// fontFamily: {
-			// 	satoshi2: "MyFont2, sans-serif",
-			// },
+			fontFamily: {
+				main: "NeuePunk, sans-serif",
+			},
 		},
 	},
 	plugins: [],

@@ -5,8 +5,8 @@ import three from "../../public/images/gigList/3.JPG";
 import four from "../../public/images/gigList/4.jpg";
 const GigList = () => {
 	return (
-		<div className="  text-white text-center purple-gradient text-4xl">
-			<h1 className="p-12">GigList</h1>
+		<div className="text-white text-center purple-gradient text-4xl">
+			<h1 className="p-12 ">GigList</h1>
 			<div className="container mx-auto px-24 pb-24 flex-col">
 				<GigCard image={one} event="Revealed Night ADE 2018 (Netherlands)" />
 				<GigCard image={two} event="Astrology Festival 2019 (Peru)" />

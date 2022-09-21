@@ -14,7 +14,7 @@ export default function Home() {
 		<div className="font-satoshi">
 			<Header />
 			<Biograhy />
-			{/* <Support /> */}
+			<Support />
 			{/* <Music /> */}
 			<GigList />
 			{/* <Tutorial /> */}

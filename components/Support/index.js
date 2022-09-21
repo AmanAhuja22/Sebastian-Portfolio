@@ -8,11 +8,11 @@ import MartinGarrix from "../../public/images/MartinGarrix.svg";
 import DavidGuetta from "../../public/images/DavidGuetta.svg";
 const Support = () => {
 	return (
-		<div className="h-full text-white purple-gradient text-center  text-4xl pt-12">
-			<div className="p-24">Supported By</div>
-			<div className="w-18">
+		<div className="h-full font-main text-white purple-gradient text-center  text-4xl pt-12">
+			<div className="p-4">Supported By</div>
+			{/* <div className="w-18">
 				<Image width="90px" height="90px" src={Revealed} alt="Revealed" />
-			</div>
+			</div> */}
 
 			{/* <div className="">
 				<Image
