@@ -15,7 +15,7 @@ export default function Home() {
 			<Header />
 			<Biograhy />
 			<Support />
-			{/* <Music /> */}
+			<Music />
 			<GigList />
 			{/* <Tutorial /> */}
 			<Footer />

@@ -4,7 +4,7 @@ import Revealed from "../../public/images/Revealed.png";
 import Afrojack from "../../public/images/Afrojack.svg";
 import Hardwell from "../../public/images/Hardwell.svg";
 import MartinGarrix from "../../public/images/MartinGarrix.svg";
-
+import David from "../../public/images/David.png";
 import DavidGuetta from "../../public/images/DavidGuetta.svg";
 const Support = () => {
 	return (
@@ -24,6 +24,9 @@ const Support = () => {
 			</div> */}
 			<div className="w-18">
 				<Image src={Afrojack} alt="Afrojack" />
+			</div>
+			<div className="w-18">
+				<Image width="200" height={28} src={David} alt="David" />
 			</div>
 			{/* <div className="w-18">
 				<Image
