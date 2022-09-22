@@ -5,7 +5,7 @@ import PopUpStore from "../../public/images/gigList/PopUpStore.png";
 import Ravecraft from "../../public/images/gigList/Ravecraft.png";
 const GigList = () => {
 	return (
-		<div className="text-white text-center purple-gradient text-4xl">
+		<div className="text-white text-center purple-gradient sm:p-24 text-4xl">
 			<h1 className="p-12 ">GigList</h1>
 			<div className="container mx-auto lg:px-0  pb-24 flex-col">
 				<GigCard className="card-bottom" image={One} event="Revealed Night ADE 2018 (Netherlands)" />

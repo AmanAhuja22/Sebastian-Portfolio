@@ -2,7 +2,7 @@ import React from "react";
 
 const Music = () => {
 	return (
-		<div className="purple-gradient text-white text-center  text-4xl pt-12 p-24">
+		<div className="purple-gradient text-white text-center  text-4xl pt-12 p-24 sm:p-8">
 			<h1 className="mb-12">Music</h1>
 			<div className="container mx-auto">
 				<iframe

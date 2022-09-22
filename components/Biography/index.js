@@ -15,7 +15,7 @@ const Biograhy = () => {
 			<div className="ellipse-eleven" />
 			<div className="ellipse-twelve" />
 
-			<div className="w-full h-full purple-gradient justify-center items-center text-center sm:px:18 lg:px-24 text-white flex p-12 gap-12 md:p-2 md:gap-8">
+			<div className="w-full h-full purple-gradient justify-center items-center text-center sm:px:18 lg:px-24 text-white flex sm:flex-row p-12 gap-12 md:p-2 md:gap-8">
 				<div className="md:my-24 xs:my-4 w-90 md:mt-24 sm:mt-36 ">
 					<h1 className="lg:text-7xl text-left md:text-4xl md:mb-4 font-main">
 						Biography
