@@ -9,7 +9,7 @@ import Hexagon from "../../public/images/Hexagon.png";
 
 const Support = () => {
 	return (
-		<div className="h-full font-main text-white purple-gradient text-center  text-4xl  p-24 sm:p-12">
+		<div className="h-full font-main text-white purple-gradient text-center  text-4xl  md:p-24 sm:p-12">
 			<div className="p-4">Supported By</div>
 
 			<div className="flex justify-center items-center gap-24 mt-12 sm:gap-12">
