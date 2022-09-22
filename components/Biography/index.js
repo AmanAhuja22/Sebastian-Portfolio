@@ -35,7 +35,9 @@ const Biograhy = () => {
 				</div>
 
 				<div className=" lg:w-[1000px] sm:w-[900px] lg:py-24 lg:px:24">
-					<Image className="" src={Hero} alt="Hero Image" />
+					<Fade right>
+						<Image className="" src={Hero} alt="Hero Image" />
+					</Fade>
 				</div>
 			</div>
 		</div>
