@@ -39,7 +39,7 @@ const Support = () => {
 				</div> */}
 				</div>
 			</Slide>
-			<Slice right>
+			<Slide right>
 				<div className="flex justify-center items-center gap-24 mt-12">
 					<div className="w-18 cursor-pointer" title="Hardwell">
 						<Image
@@ -59,7 +59,7 @@ const Support = () => {
 						<Image width="200px" height="80px" src={DonDiable} />
 					</div>
 				</div>
-			</Slice>
+			</Slide>
 		</div>
 	);
 };
