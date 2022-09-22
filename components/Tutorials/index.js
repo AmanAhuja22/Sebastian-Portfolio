@@ -5,7 +5,7 @@ const Tutorial = () => {
 		<div className="purple-gradient text-white text-center  text-4xl pt-12">
 			<h1>Tutorials</h1>
 
-			<div className="flex  justify-center items-center">
+			<div className=" sm:flex-col lg:flex lg:flex-row   sm:justify-center sm:items-center">
 				<div className="p-12">
 					<iframe
 						width="560"
